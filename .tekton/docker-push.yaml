@@ -7,7 +7,7 @@ metadata:
     pipelinesascode.tekton.dev/on-event: "[push]"
     pipelinesascode.tekton.dev/on-target-branch: "[main]"
     pipelinesascode.tekton.dev/max-keep-runs: "2"
-    pipelinesascode.tekton.dev/pipeline: "samples/tekton/pac/pipelines/docker-build-rhtap.yaml"
+    pipelinesascode.tekton.dev/pipeline: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/consolidate_ci/samples/tekton/pac/pipelines/docker-build-rhtap.yaml"
     pipelinesascode.tekton.dev/task-0: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/consolidate_ci/samples/tekton/pac/tasks/init.yaml"
     pipelinesascode.tekton.dev/task-1: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/consolidate_ci/samples/tekton/pac/tasks/git-clone.yaml"
     pipelinesascode.tekton.dev/task-2: "https://raw.githubusercontent.com/dperaza4dustbit/tssc-dev-multi-ci/consolidate_ci/samples/tekton/pac/tasks/buildah-rhtap.yaml"
